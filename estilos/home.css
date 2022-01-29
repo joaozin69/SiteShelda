@@ -1,0 +1,57 @@
+#myCarousel .carousel-item img{
+    height:34.375rem ;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+#card{
+    padding: 4.0625rem 0;
+}
+#card .title h2{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+#card .card-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+#card .cards img{
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2.8125rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#card .cards p{
+    width: 20rem;
+    
+}
+
+
+
+/* ==--QUEM SOU EU--== */
+
+#who .quemSou img{
+    height: 27.5rem;
+    width: 100vw;
+    object-fit: cover;
+}
+#who .quemSou .text{
+    padding: 2.8125rem 1rem;
+    background: #222222;
+}
+#who .quemSou .text h1{
+    font-size: 2.8125rem;
+    color: white;
+}
+#who .quemSou .text p{
+    font-size: 1rem;
+    color: white;
+}

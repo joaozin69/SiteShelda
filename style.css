@@ -1,0 +1,60 @@
+p, a{
+    font: 400 1.125rem 'Sen', sans-serif;
+}
+h1, h2, h3, h4, h5{
+    font: 700 2rem 'Sen', sans-serif;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #navbarNav{
+        display: flex;
+        justify-content: right;
+    }
+
+    #card .card-pos{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 2.5rem;
+    }
+    
+    #who .quemSou img{
+        height: 27.5rem;
+        width: 24rem;
+        object-fit: cover;
+        margin-top: 2rem;
+        
+        margin-right: -3rem;
+        position: relative;
+
+        z-index: 100;
+        border-radius: 5px;
+        box-shadow: 14px -13px 15px -18px #000000;
+
+    }
+    #who .quemSou{
+        display: flex;
+        justify-content: center;
+    }
+    #who .quemSou .text{
+        width: 50rem;
+        height: 32rem ;
+        padding: 2.8125rem;
+        background: #222222;
+
+        border-radius: 5px;
+        box-shadow: 14px -13px 15px -18px #000000;
+    }
+    #who .quemSou .text p,h1{
+        padding: 0 9rem;
+    }
+    .cards{
+        transition: transform .5s ease;
+        cursor: pointer;
+    }
+    .cards:hover{
+        transform: scale(1.1);
+    }
+}
