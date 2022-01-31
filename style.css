@@ -4,7 +4,9 @@ p, a{
 h1, h2, h3, h4, h5{
     font: 700 2rem 'Sen', sans-serif;
 }
-
+body{
+    background: ;
+}
 
 @media only screen and (min-width: 1200px) {
     #navbarNav{
@@ -42,7 +44,7 @@ h1, h2, h3, h4, h5{
         width: 50rem;
         height: 32rem ;
         padding: 2.8125rem;
-        background: #222222;
+
 
         border-radius: 5px;
         box-shadow: 14px -13px 15px -18px #000000;
@@ -57,4 +59,5 @@ h1, h2, h3, h4, h5{
     .cards:hover{
         transform: scale(1.1);
     }
+    
 }

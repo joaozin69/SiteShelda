@@ -1,5 +1,7 @@
 .navbar{
-    background: #eb5757;
+    background: #FF9292;
+    .margin-bottom: 4rem;
+    
 }
 .navbar-brand{
     font: 700 1.8rem 'Sen', sans-serif;
